@@ -1,0 +1,11 @@
+header:
+  version: 19
+  includes:
+    - kas/includes/base-config.yml
+    - kas/machines/kula.yml
+
+target:
+  - nile-update-bundle
+
+artifacts:
+  "nile-update-bundle-kula.raucb": "tmp/deploy/images/kula/nile-update-bundle-kula.raucb"
